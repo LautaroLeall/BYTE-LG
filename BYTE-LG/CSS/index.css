@@ -165,7 +165,7 @@ nav{
 }
 
 .col-md-4{
-    width: 75%;
+    width: 50%;
     height: 100%;
     flex-direction: row;
 }
@@ -180,7 +180,7 @@ nav{
 .card {
     width: 300px;
     height: 300px;
-    margin: 25px; 
+    margin: 30px; 
     border: 2px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
@@ -223,15 +223,13 @@ nav{
 /*FOOTER NO TOCAR */
 
 footer{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
     position: relative;
     width: 100%;
     background-color: hwb(122 4% 64% / 0.265);   
     min-height: 100px;
-    padding: 20px 50px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,7 +241,6 @@ footer{
     justify-content: center; 
     align-items: center; 
     position: relative;
-    margin: 5px;
     flex-wrap: wrap;
 }
 
@@ -255,7 +252,7 @@ footer{
     color: hsl(163, 48%, 11%);
     font-size: 32px;
     display: inline-block;
-    margin: 1px 50px;
+    margin: 1px 25px;
     transition: 0.5s;
 }
 
@@ -268,9 +265,7 @@ footer{
     justify-content: center;
     position: relative;
     align-items: center;
-    margin: 5px 50px;
     flex-wrap: wrap;
-    margin-left: 110px;
 }
 
 .menu-elem{
@@ -296,8 +291,8 @@ footer{
     color: hsl(163, 48%, 11%);
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 22px;
-    margin-left: 30px;
+    font-size: 20px;
+    margin-left: 20px;
     text-align: center;
     font-weight: bold;
 }
