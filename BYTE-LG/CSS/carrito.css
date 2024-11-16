@@ -118,19 +118,16 @@ nav{
     background-color:  hwb(133 1% 85%);
 }
 
-
 /*FOOTER NO TOCAR */
 
 footer{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
     position: relative;
     width: 100%;
     background-color: hwb(122 4% 64% / 0.265);   
     min-height: 100px;
-    padding: 20px 50px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,11 +135,10 @@ footer{
 }
 
 .social-icon{
-   /*  display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     position: relative;
-    margin: 5px;
     flex-wrap: wrap;
 }
 
@@ -154,7 +150,7 @@ footer{
     color: hsl(163, 48%, 11%);
     font-size: 32px;
     display: inline-block;
-    margin: 1px 50px;
+    margin: 1px 25px;
     transition: 0.5s;
 }
 
@@ -167,9 +163,7 @@ footer{
     justify-content: center;
     position: relative;
     align-items: center;
-    margin: 5px 50px;
     flex-wrap: wrap;
-    margin-left: 110px;
 }
 
 .menu-elem{
@@ -193,10 +187,10 @@ footer{
 
 .copyrght{
     color: hsl(163, 48%, 11%);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 22px;
-    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-left: 20px;
     text-align: center;
     font-weight: bold;
 }
