@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,67 +14,70 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
     <header>
+        <section id="inicio">
+            <!--navbar 1-->
+            <nav class="navbar fixed-top bg-body-tertiary">
+                <div class="container-fluid">
+                    <a href="#inicio" class="navbar-brand">
+                        <h4>MOVE/SPORT</h4>
+                    </a>
+                    <form class="d-flex justify-content-center" role="search">
+                        <input id="buscar" class="form-control me-2" type="search" placeholder="Que esta buscando?"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                    </form>
+                    <div id="user-link">
+                        <a href="/HTML/login.html" class="me-auto pe-0">
+                            <i class='bx bxs-user' id="user"></i>
+                        </a>
+                    </div>
+                    <div id="carrito-link">
+                        <a href="/HTML/carrito.html" class="me-auto pe-0">
+                            <i class='bx bxs-cart-add' id="carrito"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </section>
     </header>
-    <section id="inicio">
-        <!--navbar 1-->
-        <nav class="navbar fixed-top bg-body-tertiary">
-            <div class="container-fluid">
-                <a href="#inicio" class="navbar-brand">
-                    <h4>MOVE/SPORT</h4>
-                </a>
-                <form class="d-flex justify-content-center" role="search">
-                    <input id="buscar" class="form-control me-2" type="search" placeholder="Que esta buscando?"
-                        aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">BUSCAR</button>
-                </form>
-                <div id="user-link">
-                    <a href="/HTML/login.html" class="me-auto pe-0">
-                        <i class='bx bxs-user' id="user"></i>
-                    </a>
-                </div>
-                <div id="carrito-link">
-                    <a href="/HTML/login.html" class="me-auto pe-0">
-                        <i class='bx bxs-cart-add' id="carrito"></i>
-                    </a>
-                </div>
+
+    <main>
+        <section>
+            <!--navbar 2-->
+            <nav>
+                <ul class="menu-horizontal">
+                    <li>
+                        <a href="/index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/indumen.html">INDUMENTARIA</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/club.html">CLUBES</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/error404.html">BOTINES</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/error404.html">CALZADO</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/error404.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <!--IMG ATL-->
+        <div class="imagen-con-texto">
+            <img src="/ASSETS/ATL-img.jpg" class="img-ATL" alt="img-slider">
+            <div class="texto-img-1">
+                <h2>¡Atletico De Tucuman!</h2>
+                <p>La mejor tienda para el mejor deporte</p>
             </div>
-        </nav>
-    </section>
-    <section>
-        <!--navbar 2-->
-        <nav>
-            <ul class="menu-horizontal">
-                <li>
-                    <a href="/index.html">INICIO</a>
-                </li>
-                <li>
-                    <a href="/HTML/indumen.html">INDUMENTARIA</a>
-                </li>
-                <li>
-                    <a href="/HTML/club.html">CLUBES</a>
-                </li>
-                <li>
-                    <a href="#">BOTINES</a>
-                </li>
-                <li>
-                    <a href="#">CALZADO</a>
-                </li>
-                <li>
-                    <a href="#">CONTACTO</a>
-                </li>
-            </ul>
-        </nav>
-    </section>
-    <!--IMG ATL-->
-    <div class="imagen-con-texto"></div>
-    <img src="/ASSETS/ATL-img.jpg" class="img-ATL" alt="img-slider">
-    <div class="texto-img-1">
-        <h2>¡Atletico De Tucuman!</h2>
-        <p>La mejor tienda para el mejor deporte</p>
-    </div>
-    <main id="ATL">
+        </div>
         <hr>
         <!--CARDS ATL-->
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
@@ -94,7 +98,7 @@
                                     <p class="card-text">PRECIO TOTAL $34.999</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO </a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO </a>
                                 </div>
                             </div>
                         </div>
@@ -112,7 +116,7 @@
                                     <p class="card-text">PRECIO TOTAL $41.999</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +134,7 @@
                                     <p class="card-text">PRECIO TOTAL $41.160</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -156,7 +160,7 @@
                                     <p class="card-text">PRECIO TOTAL $34.999</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO </a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO </a>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +178,7 @@
                                     <p class="card-text">PRECIO TOTAL $21.499</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -192,7 +196,7 @@
                                     <p class="card-text">PRECIO TOTAL $51.999</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -218,7 +222,7 @@
                                     <p class="card-text">PRECIO TOTAL $25.999</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO </a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO </a>
                                 </div>
                             </div>
                         </div>
@@ -236,7 +240,7 @@
                                     <p class="card-text">PRECIO TOTAL $34.899</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -254,7 +258,7 @@
                                     <p class="card-text">PRECIO TOTAL $14.699</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -280,7 +284,7 @@
                                     <p class="card-text">PRECIO TOTAL $34.999</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO </a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO </a>
                                 </div>
                             </div>
                         </div>
@@ -298,7 +302,7 @@
                                     <p class="card-text">PRECIO TOTAL $32.099</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -316,7 +320,7 @@
                                     <p class="card-text">PRECIO TOTAL $32.099</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -342,7 +346,7 @@
                                     <p class="card-text">PRECIO TOTAL $32.299</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO </a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO </a>
                                 </div>
                             </div>
                         </div>
@@ -360,7 +364,7 @@
                                     <p class="card-text">PRECIO TOTAL $21.799</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -378,7 +382,7 @@
                                     <p class="card-text">PRECIO TOTAL $32.299</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -387,15 +391,15 @@
             </div>
         </div>
         <hr>
-    </main>
-    <!--IMG SMT-->
-    <div class="imagen-con-texto"></div>
-    <img src="/ASSETS/SMT-img.jpg" class="img-SMT" alt="img-slider">
-    <div class="texto-img-2">
-        <h2>¡San Martin De Tucuman!</h2>
-        <p>La mejor tienda para el mejor deporte</p>
-    </div>
-    <main id="SMT">
+        <!--IMG SMT-->
+        <div class="imagen-con-texto">
+            <img src="/ASSETS/SMT-img.jpg" class="img-SMT" alt="img-slider">
+            <div class="texto-img-2">
+                <h2>¡San Martin De Tucuman!</h2>
+                <p>La mejor tienda para el mejor deporte</p>
+            </div>
+        </div>
+
         <hr>
         <!--CARDS SMT-->
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
@@ -416,7 +420,7 @@
                                     <p class="card-text">PRECIO TOTAL $47.999</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO </a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO </a>
                                 </div>
                             </div>
                         </div>
@@ -434,7 +438,7 @@
                                     <p class="card-text">PRECIO TOTAL $47.999</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -452,7 +456,7 @@
                                     <p class="card-text">PRECIO TOTAL $20.999</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -478,7 +482,7 @@
                                     <p class="card-text">PRECIO TOTAL $27.299</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO </a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO </a>
                                 </div>
                             </div>
                         </div>
@@ -496,7 +500,7 @@
                                     <p class="card-text">PRECIO TOTAL $20.299</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -514,7 +518,7 @@
                                     <p class="card-text">PRECIO TOTAL $20.299</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -540,7 +544,7 @@
                                     <p class="card-text">PRECIO TOTAL $20.999</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO </a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO </a>
                                 </div>
                             </div>
                         </div>
@@ -558,7 +562,7 @@
                                     <p class="card-text">PRECIO TOTAL $33.599</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -576,7 +580,7 @@
                                     <p class="card-text">PRECIO TOTAL $33.599</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                    <a href="/HTML/error404.html" class="btn btn-primary">AGREGAR AL CARRITO</a>
                                 </div>
                             </div>
                         </div>
@@ -639,5 +643,6 @@
         </ul>
         <span class="copyrght">&copy; 2024 MoveSport | Todos los derechos reservados.</span>
     </footer>
-</body
+</body>
+
 </html>

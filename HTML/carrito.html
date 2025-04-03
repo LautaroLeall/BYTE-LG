@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,61 +12,63 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-<header class="header" id="inicio">
+    <header class="header" id="inicio">
         <!--navbar 1-->
-    <nav class="navbar fixed-top bg-body-tertiary">
-        <div class="container-fluid">
-            <a href="#inicio" class="navbar-brand">
-                <h4>MOVE/SPORT</h4>
-            </a>
-            <form class="d-flex justify-content-center" role="search">
-                <input id="buscar" class="form-control me-2" type="search" placeholder="Que esta buscando?" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">BUSCAR</button>
-            </form>
-            <div id="user-link">
-                <a href="/HTML/login.html" class="me-auto pe-0">
-                    <i class='bx bxs-user' id="user"></i>
+        <nav class="navbar fixed-top bg-body-tertiary">
+            <div class="container-fluid">
+                <a href="#inicio" class="navbar-brand">
+                    <h4>MOVE/SPORT</h4>
                 </a>
+                <form class="d-flex justify-content-center" role="search">
+                    <input id="buscar" class="form-control me-2" type="search" placeholder="Que esta buscando?"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                </form>
+                <div id="user-link">
+                    <a href="/HTML/login.html" class="me-auto pe-0">
+                        <i class='bx bxs-user' id="user"></i>
+                    </a>
+                </div>
+                <div id="carrito-link">
+                    <a href="/HTML/carrito.html" class="me-auto pe-0">
+                        <i class='bx bxs-cart-add' id="carrito"></i>
+                    </a>
+                </div>
             </div>
-            <div id="carrito-link">
-                <a href="/HTML/carrito.html" class="me-auto pe-0">
-                    <i class='bx bxs-cart-add' id="carrito"></i>
-                </a>
-            </div>
-        </div>
-    </nav>
-</header>
-<section>
-    <!--navbar 2-->
-    <nav>
-        <ul class="menu-horizontal">
-            <li>
-                <a href="/index.html">INICIO</a>
-            </li>
-            <li>
-                <a href="/HTML/indumen.html">INDUMENTARIA</a>
-            </li>
-            <li>
-                <a href="/HTML/club.html">CLUBES</a>
-            </li>
-            <li>
-                <a href="#">BOTINES</a>
-            </li>
-            <li>
-                <a href="#">CALZADO</a>
-            </li>
-            <li>
-                <a href="#">CONTACTO</a>
-            </li>
-        </ul>
-    </nav>
-</section>
-<main>
-    <h1 class="title"> Carrito</h1>
-    <div class="container">
+        </nav>
+    </header>
+    <main>
+        <section>
+            <!--navbar 2-->
+            <nav>
+                <ul class="menu-horizontal">
+                    <li>
+                        <a href="/index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/indumen.html">INDUMENTARIA</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/club.html">CLUBES</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/error404.html">BOTINES</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/error404.html">CALZADO</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/error404.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <h1 class="title"> Carrito</h1>
+        <div class="container">
             <div class="grid">
-                <div class="items"> 
+                <div class="items">
                     <img class="card-img" src="../ASSETS/ChombaLacos1.webp" alt="">
                     <div class="info">
                         <h5 class="card-title">Chomba Lacoste 12.12 De Hombre</h5>
@@ -82,7 +85,7 @@
                 </div>
             </div>
             <div class="grid">
-                <div class="items"> 
+                <div class="items">
                     <img class="card-img" src="../ASSETS/ZapNike.webp" alt="">
                     <div class="info">
                         <h5 class="card-title">Zapatillas Nike Air Max 1 De Hombre</h5>
@@ -90,7 +93,7 @@
                         <p class="card-text">¡Promociones bancarias! <br>
                             3 cuotas sin interés de $ 85.666,33<br>
                             6 cuotas sin interés de $ 42.833,16 <br>
-                            12 cuotas sin interés de $ 21.416,58 </p> 
+                            12 cuotas sin interés de $ 21.416,58 </p>
                         <hr class="linea">
                         <p class="card-text">PRECIO TOTAL $256.999</p>
                         <hr class="linea3">
@@ -99,7 +102,7 @@
                 </div>
             </div>
             <div class="grid">
-                <div class="items"> 
+                <div class="items">
                     <img class="card-img" src="/ASSETS/PantPuma2.webp" alt="">
                     <div class="info">
                         <h5 class="card-title">Pantalón Puma Downtown 180 De Hombre</h5>
@@ -116,7 +119,7 @@
                 </div>
             </div>
             <div class="grid">
-                <div class="items"> 
+                <div class="items">
                     <img class="card-img" src="/ASSETS/ShortAdida.webp" alt="">
                     <div class="info">
                         <h5 class="card-title">Short adidas Future Icons De Hombre</h5>
@@ -132,69 +135,71 @@
                     </div>
                 </div>
             </div>
-    </div>
-    <section class="fin-compra">
-        <div class="total">
-            <h2>Total</h2>
-            <p class="precio-total">$476.697</p>
         </div>
-        <div class="pagar">
-            <button>FINALIZAR COMPRA</button>
-        </div>
-    </section>
-</main><hr>
-<footer class="footer">
-    <!--LAUTARO-->
-    <span class="copyrght"> LAUTARO </span>
-    <ul class="social-icon">
-    <li class="icon-element">
-        <a href="https://www.instagram.com/lautaro_leall/" class="icon" target="_blank">
-        <i class='bx bxl-instagram'></i>
-        </a>
-    </li>
-    <li class="icon-element">
-        <a href="https://github.com/LautaroLeall" class="icon" target="_blank">
-        <i class='bx bxl-github'></i>
-        </a>
-    </li>
-    <li class="icon-element">
-        <a href="https://www.linkedin.com/in/lauldp/" class="icon" target="_blank">
-        <i class='bx bxl-linkedin-square'></i>
-        </a>
-    </li>
-    </ul>
-    <!--GONZALO-->
-    <span class="copyrght"> GONZALO </span>
-    <ul class="social-icon">
-    <li class="icon-element">
-        <a href="https://www.instagram.com/gonchi_martinezz/" class="icon" target="_blank">
-        <i class='bx bxl-instagram'></i>
-        </a>
-    </li>
-    <li class="icon-element">
-        <a href="https://github.com/GonzaloMartinezz" class="icon" target="_blank"> 
-        <i class='bx bxl-github'></i>
-        </a>
-    </li>
-    <li class="icon-element">
-        <a href="https://www.linkedin.com/in/gonzalomartinez9/" class="icon" target="_blank">
-        <i class='bx bxl-linkedin-square'></i>
-        </a>
-    </li>
-    </ul>
+        <section class="fin-compra">
+            <div class="total">
+                <h2>Total</h2>
+                <p class="precio-total">$476.697</p>
+            </div>
+            <div class="pagar">
+                <button>FINALIZAR COMPRA</button>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer class="footer">
+        <!--LAUTARO-->
+        <span class="copyrght"> LAUTARO </span>
+        <ul class="social-icon">
+            <li class="icon-element">
+                <a href="https://www.instagram.com/lautaro_leall/" class="icon" target="_blank">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </li>
+            <li class="icon-element">
+                <a href="https://github.com/LautaroLeall" class="icon" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </li>
+            <li class="icon-element">
+                <a href="https://www.linkedin.com/in/lauldp/" class="icon" target="_blank">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+            </li>
+        </ul>
+        <!--GONZALO-->
+        <span class="copyrght"> GONZALO </span>
+        <ul class="social-icon">
+            <li class="icon-element">
+                <a href="https://www.instagram.com/gonchi_martinezz/" class="icon" target="_blank">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </li>
+            <li class="icon-element">
+                <a href="https://github.com/GonzaloMartinezz" class="icon" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </li>
+            <li class="icon-element">
+                <a href="https://www.linkedin.com/in/gonzalomartinez9/" class="icon" target="_blank">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+            </li>
+        </ul>
         <!--MENU DE FOOTER-->
-    <ul class="menu">
-    <li class="menu-elem"></li>
-        <a href="#inicio" class="menu-icon">INICIO</a>
-    </li>
-        <li class="menu-elem"></li>
-        <a href="../HTML/Registro.html" class="menu-icon">REGISTRO</a>
-    </li>
-    <li class="menu-elem"></li>
-    <a href="/HTML/Contacto.html" class="menu-icon">CONTACTO</a>
-    </li>
-    </ul>
-    <span class="copyrght">&copy; 2024 MoveSport | Todos los derechos reservados.</span>
-</footer>
+        <ul class="menu">
+            <li class="menu-elem"></li>
+            <a href="#inicio" class="menu-icon">INICIO</a>
+            </li>
+            <li class="menu-elem"></li>
+            <a href="../HTML/Registro.html" class="menu-icon">REGISTRO</a>
+            </li>
+            <li class="menu-elem"></li>
+            <a href="/HTML/error404.html" class="menu-icon">CONTACTO</a>
+            </li>
+        </ul>
+        <span class="copyrght">&copy; 2024 MoveSport | Todos los derechos reservados.</span>
+    </footer>
 </body>
+
 </html>
