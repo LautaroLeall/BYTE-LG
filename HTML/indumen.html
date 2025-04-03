@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/indumen.css">
+    <link rel="icon" href="/ASSETS/ICONO-HEAD.jpg">
+    <title>Indumentaria</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+    </header>
+    <section id="inicio">
+        <!--navbar 1-->
+        <nav class="navbar fixed-top bg-body-tertiary">
+            <div class="container-fluid">
+                <a href="#inicio" class="navbar-brand">
+                    <h4>MOVE/SPORT</h4>
+                </a>
+                <form class="d-flex justify-content-center" role="search">
+                    <input id="buscar" class="form-control me-2" type="search" placeholder="Que esta buscando?"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                </form>
+                <div id="user-link">
+                    <a href="/HTML/Login.html" class="me-auto pe-0">
+                        <i class='bx bxs-user' id="user"></i>
+                    </a>
+                </div>
+                <div id="carrito-link">
+                    <a href="/HTML/Carrito.html" class="me-auto pe-0">
+                        <i class='bx bxs-cart-add' id="carrito"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section>
+        <!--navbar 2-->
+        <nav>
+            <ul class="menu-horizontal">
+                <li>
+                    <a href="/index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="/HTML/indumen.html">INDUMENTARIA</a>
+                </li>
+                <li>
+                    <a href="/HTML/club.html">CLUBES</a>
+                </li>
+                <li>
+                    <a href="#">BOTINES</a>
+                </li>
+                <li>
+                    <a href="#">CALZADO</a>
+                </li>
+                <li>
+                    <a href="#">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <div class="imagen-con-texto"></div>
+    <img src="/ASSETS/Indumentaria-.webp" class="img-fluid" alt="img-slider">
+    <div class="texto-sobre-imagen">
+        <h2>¡Bienvenidos a MoveSport!</h2>
+        <p>La mejor tienda para el mejor deporte</p>
+    </div>
+    <main>
+        <hr>
+        <!-- carousel -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/RemJordan.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Remera Nike Jordan Essentials De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 17.166,33 <br>
+                                        6 cuotas sin interés de $ 8.583,16 <br>
+                                        12 cuotas fijas de $ 5.583,27</p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $51.499</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/RemPuma4.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Remera Puma Power Colorblock De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 10.999,66 <br>
+                                        6 cuotas sin interés de $ 5.499,83 <br>
+                                        12 cuotas fijas de $ 3.577,59 </p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $32.999</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/RemPuma5.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Remera Puma Downtown 180 De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 18.333 <br>
+                                        6 cuotas sin interés de $ 9.166,5 <br>
+                                        12 cuotas fijas de $ 5.962,72 </p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $54.999</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/PantPuma.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pantalón Puma Classics De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 36.333 <br>
+                                        6 cuotas sin interés de $ 18.166,5 <br>
+                                        12 cuotas fijas de $ 11.817,14</p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $108.999</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/PantAdida.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pantalón adidas Future Sport De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 33.333 <br>
+                                        6 cuotas sin interés de $ 16.666,5 <br>
+                                        12 cuotas fijas de $ 10.841,4 </p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $99.999</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/PantPuma1.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pantalón Puma Cargo Classics De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 36.333 <br>
+                                        6 cuotas sin interés de $ 18.166,5 <br>
+                                        12 cuotas fijas de $ 11.817,14 </p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $108.999</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/PantAdida1.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pantalón Adidas Adventure Winter De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 32.199,66 <br>
+                                        6 cuotas sin interés de $ 16.099,83 <br>
+                                        12 cuotas sin interés de $ 8.049,91 </p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $96.599</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/RemVans.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Remera Vans Classic Logo De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 10.999,66 <br>
+                                        6 cuotas sin interés de $ 5.499,83 <br>
+                                        12 cuotas sin interés de $ 2.749,91 </p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $32.999</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/PantPuma2.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pantalón Puma Downtown 180 De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 36.333 <br>
+                                        6 cuotas sin interés de $ 18.166,5 <br>
+                                        12 cuotas fijas de $ 11.817,14 </p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $108.999</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/ChombaLacos.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chomba Lacoste Clásica De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 39.999,66<br>
+                                        6 cuotas sin interés de $ 19.999,83 <br>
+                                        12 cuotas fijas de $ 13.009,7 </p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $119.999</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/ShortAdida.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Short adidas Future Icons De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 12.399,66 <br>
+                                        6 cuotas sin interés de $ 6.199,83 <br>
+                                        12 cuotas fijas de $ 4.032,93 </p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $37.199</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/ShortAdida1.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Short adidas Camo Series De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 18.399,66 <br>
+                                        6 cuotas sin interés de $ 9.199,83 <br>
+                                        12 cuotas sin interés de $ 4.599,91 </p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $55.199</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/ShortAdida2.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Short adidas All Szn De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 21.999,66<br>
+                                        6 cuotas sin interés de $ 10.999,83 <br>
+                                        12 cuotas fijas de $ 7.155,28 </p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $65.999</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/ChombaLacos1.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chomba Lacoste 12.12 De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 24.500 <br>
+                                        6 cuotas sin interés de $ 12.250 <br>
+                                        12 cuotas fijas de $ 7.968,51 </p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $73.500</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/ChombaLacos2.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chomba Lacoste Pique De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 39.666,66 <br>
+                                        6 cuotas sin interés de $ 19.833,33 <br>
+                                        12 cuotas fijas de $ 12.901,39 </p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $119.000</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/RemPuma.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Remera Puma Sneaker De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 5.799,66 <br>
+                                        6 cuotas sin interés de $ 2.899,83 <br>
+                                        12 cuotas fijas de $ 1.886,31</p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $17.399</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/RemPuma2" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Remera Puma Downtown De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 8.566,33 <br>
+                                        6 cuotas sin interés de $ 4.283,16 <br>
+                                        12 cuotas sin interés de $ 2.141,58 </p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $25.699</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="/ASSETS/RemPuma3.webp" class="card-img-top" alt="REMERA PUMA">
+                                <div class="card-body">
+                                    <h5 class="card-title">Remera Puma Sneaker De Hombre</h5>
+                                    <hr>
+                                    <p class="card-text">¡Aprovechá nuestras promociones bancarias! <br>
+                                        3 cuotas sin interés de $ 8.999,66 <br>
+                                        6 cuotas sin interés de $ 4.499,83 <br>
+                                        12 cuotas fijas de $ 2.927,09 </p>
+                                    <hr>
+                                    <p class="card-text">PRECIO TOTAL $26.699</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">AGREGAR AL CARRITO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer class="footer">
+        <!--LAUTARO-->
+        <span class="copyrght"> LAUTARO </span>
+        <ul class="social-icon">
+            <li class="icon-element">
+                <a href="https://www.instagram.com/lautaro_leall/" class="icon" target="_blank">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </li>
+            <li class="icon-element">
+                <a href="https://github.com/LautaroLeall" class="icon" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </li>
+            <li class="icon-element">
+                <a href="https://www.linkedin.com/in/lauldp/" class="icon" target="_blank">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+            </li>
+        </ul>
+        <!--GONZALO-->
+        <span class="copyrght"> GONZALO </span>
+        <ul class="social-icon">
+            <li class="icon-element">
+                <a href="https://www.instagram.com/gonchi_martinezz/" class="icon" target="_blank">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </li>
+            <li class="icon-element">
+                <a href="https://github.com/GonzaloMartinezz" class="icon" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </li>
+            <li class="icon-element">
+                <a href="https://www.linkedin.com/in/gonzalomartinez9/" class="icon" target="_blank">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+            </li>
+        </ul>
+        <!--MENU DE FOOTER-->
+        <ul class="menu">
+            <li class="menu-elem"></li>
+            <a href="#inicio" class="menu-icon">INICIO</a>
+            </li>
+            <li class="menu-elem"></li>
+            <a href="/HTML/registro.html" class="menu-icon">REGISTRO</a>
+            </li>
+            <li class="menu-elem"></li>
+            <a href="#" class="menu-icon">CONTACTO</a>
+            </li>
+        </ul>
+        <span class="copyrght">&copy; 2024 MoveSport | Todos los derechos reservados.</span>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+</html>
