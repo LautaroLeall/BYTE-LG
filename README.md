@@ -15,3 +15,5 @@
 ~~PAGINA WEB SIN RESPONSIVE Y ESTATICA~~
 
 > DESARROLLADA CON [GONZALO MARTINEZ ](https://github.com/GonzaloMartinezz "GONZALO MARTINEZ ")
+
+> *[RESPOSITORIO ORIGINAL](https://github.com/GonzaloMartinezz/BYTE-GM)*
